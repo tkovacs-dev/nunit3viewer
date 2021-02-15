@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Github page is a single HTML file
+docs/*
+!docs/index.html
