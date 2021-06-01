@@ -5,7 +5,7 @@
 {#if result == "Passed"}
     <span title="{result}" class="{result}">⬤</span>
 {:else if result == "Skipped"}
-    <span title="{result}" class="{result}">◐</span>
+    <span title="{result}" class="{result}">⬤</span>
 {:else if result == "Failed"}
     <span title="{result}" class="{result}">⬤</span>
 {:else if result == "Inconclusive"}
@@ -19,15 +19,19 @@
         display: inline-block;
     }
 
-    span.Passed, span.Skipped {
-        color: green;
+    span.Passed {
+        color: #4CAF50;
+    }
+
+    span.Skipped {
+        color: #BDBDBD;
     }
 
     span.Failed {
-        color: red;
+        color: #F44336;
     }
 
     span.Inconclusive {
-        color: burlywood;
+        color: #81D4FA;
     }
 </style>
