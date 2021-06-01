@@ -100,7 +100,7 @@
         display: grid;
         width: 100vw;
         height: 100vh;
-        grid-template-columns: 30vw 1fr;
+        grid-template-columns: auto 1fr;
         grid-template-rows: 50px 1fr;
 
         grid-template-areas:
@@ -120,12 +120,12 @@
 
     nav {
         grid-area: nav;
-        max-width: 30vw;
+        width: 30vw;
+        resize: horizontal;
+        max-width: 80vw;
         overflow-y: scroll;
         background-color: #f6f8fa;
-
         margin: 0;
-
         border-right: 1px solid lightgray;
     }
 
