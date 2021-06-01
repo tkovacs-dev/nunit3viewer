@@ -11,8 +11,6 @@
     let testRun = null;
     let selected = null;
 
-    $: console.log('selected', selected);
-
     let showPassed = true;
     let showFailed = true;
     let showSkipped = true;
