@@ -74,7 +74,7 @@
         display: inline-block;
         width: 100%;
 
-        color: black;
+        color: var(--nc-tx-1);
         text-decoration: none;
         font-weight: lighter;
         padding: 0.1rem;
